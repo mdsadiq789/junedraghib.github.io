@@ -1,0 +1,29 @@
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.buttono
+{
+    background-color: #fff; /* Green */
+    border: none;
+    color: black;
+    padding: 5px 5px 5px 30px;*/
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    /*margin: 4px 2px;*/
+    cursor: pointer;
+}
+.sem 
+{
+    visibility: hidden;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#inner-con
+{
+    padding-right: 2px;
+    padding-left: 2px;
+}
