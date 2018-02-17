@@ -1,9 +1,13 @@
 function myFunction(contentId) 
    {      
-      var x = document.getElementById(contentId);
-      x.style.visibility = "hidden";
-      if (x.style.visibility === "hidden") 
+      var arr = document.getElementsByClassName("sem");
+      for (var i=0; i<arr.length ;i++) 
       {
-        x.style.visibility = "visible";
-      }  
-}
+          arr[i].style.display="none";    
+      }
+      var x = document.getElementById(contentId);
+      x.style.display = "block";
+   }
+         
+
+
