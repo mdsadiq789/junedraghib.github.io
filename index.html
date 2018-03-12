@@ -1,299 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>Department of Computer Engineering,JMI</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="aa.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <script src="https://www.w3schools.com/lib/w3.js"></script>
-    <link rel="shortcut icon" href="../favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="aa.css">
-    
+	<title>first page</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
+<body style="background-color: blue">
+	<div class="container-fluid" style="background-color: yellow ;margin : 5px;">
+		<div class="row" style="background-color: green ; margin : 5px;">
+			<div class="col-lg-12" style="background-color: red; margin : 5px;">
+				<div class="container-fluid">
+					<h1>BANKING SYSTEM</h1>
+				</div>
+			</div>
+		</div>
+		<div class="row" style="background-color: green ; margin : 5px">
+			<div class="col-lg-8" style="background-color: red; margin : 5px;">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-9">
+							<h2 style="display: block;">About The Project</h2>
+							this is our DBMS project here we have to show the complete implementation of our skill that we have learned in the data base
+							management system in our theory class as well as lab class this project is likely to gbe submitted as soon as possible
+							<div class="row">
+								<div class="container-fluid">
+									<div class="row">
+										<h3> Inspected By</h3>
+									</div>
+									<div class="row">
+										<div class="col-lg-3">
+											<img src="http://via.placeholder.com/100x100">
+										</div>
+										<div class="col-lg-3">
+											<img src="http://via.placeholder.com/100x100">
+										</div>
+										<div class="col-lg-3">
+											<img src="http://via.placeholder.com/100x100">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="container-fluid">
+									<div class="row">
+										<h3> Developed By</h3>
+									</div>
+									<div class="row">
+										<div class="col-lg-3">
+											<img src="http://via.placeholder.com/100x100">
+										</div>
+										<div class="col-lg-3">
+											<img src="http://via.placeholder.com/100x100">
+										</div>
+										<div class="col-lg-3">
+											<img src="http://via.placeholder.com/100x100">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3" style="background-color : red ; margin : 5px;">
+				<form class="form-signin" style="margin-right : 5px; margin-top : 20px;">
 
-    <link rel="stylesheet" href="/assets/css/main.css" />
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        #customers {
-            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-            border-collapse: collapse;
-            width: 100%;
-        }
-
-        #customers td,
-        #customers th {
-            border: 1px solid #ddd;
-            padding: 8px;
-        }
-
-        #customers tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-
-        #customers tr:hover {
-            background-color: #ddd;
-        }
-
-        #myInput {
-            background-image: url('/css/searchicon.png');
-            background-position: 10px 10px;
-            background-repeat: no-repeat;
-            width: 100%;
-            font-size: 16px;
-            padding: 12px 20px 12px 40px;
-            border: 1px solid #ddd;
-            margin-bottom: 12px;
-        }
-
-        #customers th {
-            padding-top: 12px;
-            padding-bottom: 12px;
-            text-align: left;
-            background-color: #4CAF50;
-            color: white;
-        }
-    </style>
-
-    <!--======================================NAVBAR STARTS HERE=============================================-->
-    <div w3-include-html="/header.html"></div>
-    <script>
-        w3.includeHTML();
-    </script>
-    <!--======================================NAVBAR ENDS HERE=============================================-->
-
-    <div class="w3-container">
-        <div class="container" id="inner-con" >
-
-            <div class="heading" style="margin-top: 5px;
-        margin-bottom: 20px;
-        border-radius: 6px;
-        padding-right: 60px;
-        padding-left: 60px;
-        background-color: #eee;
-        padding-top: 2px;
-        padding-bottom: 10px;">
-                <h2 style="text-align: center; margin-top: 20px;">Syllabus</h2>
-            </div>
-            <div>
-                <div class="container">
-  <ul class="nav nav-tabs">
-    <li class="dropdown">
-      <a class="dropdown-toggle" data-toggle="dropdown" href="#">B.tech <span class="caret"></span></a>
-      <ul class="dropdown-menu">
-        <button class="buttono" onclick='myFunction("sem1&2")'>Semester 1 & 2</button> 
-        <button class="buttono" onclick='myFunction("sem3")'>Semester 3</button>
-        <button class="buttono" onclick='myFunction("sem4")'>Semester 4</button>
-        <button class="buttono" onclick='myFunction("sem5")'>Semester 5</button>
-        <button class="buttono" onclick='myFunction("sem6")'>Semester 6</button>
-        <button class="buttono" onclick='myFunction("sem7")'>Semester 7</button>
-        <button class="buttono" onclick='myFunction("sem8")'>Semester 8</button>
-  </ul>
-    </li>
-    <li class="dropdown">
-      <a class="dropdown-toggle" data-toggle="dropdown" href="#">M.Tech <span class="caret"></span></a>
-      <ul class="dropdown-menu">
-        <li><a href="#">Submenu 1-1</a></li>
-        <li><a href="#">Submenu 1-2</a></li>
-        <li><a href="#">Submenu 1-3</a></li>                        
-      </ul>
-    </li><li class="dropdown">
-      <a class="dropdown-toggle" data-toggle="dropdown" href="#">B.E. <span class="caret"></span></a>
-      <ul class="dropdown-menu">
-        <li><a href="#">Submenu 1-1</a></li>
-        <li><a href="#">Submenu 1-2</a></li>
-        <li><a href="#">Submenu 1-3</a></li>                        
-      </ul>
-    </li>
-  </ul>
-</div>
-<div id="sem1&2" class="container sem " >
-    <div class="panel panel-default">   
-        <div class="panel-heading">Semester 1 & 2</div>
-            <div class="panel-body">
-                <table>
-                        <tr class="header">
-                            <th style="width:10%;">Course Code</th>
-                            <th style="width:33%;">Course Title</th>
-                        </tr>
-                        <tr>
-                            <td>CS-101</td>
-                            <td><a href=" junedraghib.github.io/CS-101_foc.pdf?raw=true" type="application/pdf">
-                                Fundamental Of Computer</a>
-                            </td>  
-                        </tr>
-                    </table> 
-                </div>
-        </div>
-    </div>
-</div>
-<div id="sem3" class="container sem">
-    <div class="panel panel-default">   
-        <div class="panel-heading">Semester 3</div>
-            <div class="panel-body">
-                    <table>
-                        <tr class="header">
-                            <th style="width:10%;">Course Code</th>
-                            <th style="width:33%;">Course Title</th>
-                        </tr>
-                        <tr>
-                            <td>CEN-301</td>
-                            <td><a href=" junedraghib.github.io/CEN-301_data_structure.pdf?raw=true" type="application/pdf">
-                                Data Structure & Programming</a></td>
-                        </tr>
-                        <tr>
-                            <td>CEN-302</td>
-                            <td><a href=" junedraghib.github.io/CEN-302_dlt.pdf?raw=true" type="application/pdf">
-                                Digital Logic Theory</a></td>
-                        </tr>
-                        <tr>
-                            <td>CEN-303</td>
-                            <td> 
-                                <a href=" junedraghib.github.io/CEN-303_dm.pdf?raw=true" type="application/pdf">
-                                Discrete Maths</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>CEN-304</td>
-                            <td>
-                                <a href=" junedraghib.github.io/CEN-304_A&D.pdf?raw=true" type="application/pdf">
-                                Analoge & Digital Communication</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>CEN-305</td>
-                            <td>
-                                <a href=" junedraghib.github.io/CEN-305_mathematicsI.pdf?raw=true" type="application/pdf">
-                                Mathematics-I</a>
-                            </td>
-                        </tr>
-                    </table> 
-</div>  
-</div>     
-</div>
-<div id="sem4" class="container sem">
-      <div class="panel panel-default">   
-        <div class="panel-heading">Semester 4</div>
-            <div class="panel-body">
-                  <table>
-                        <tr class="header">
-                            <th style="width:10%;">Course Code</th>
-                            <th style="width:33%;">Course Title</th>
-                        </tr>
-                        <tr>
-                            <td>CEN-401</td>
-                            <td><a href=" junedraghib.github.io/CEN-401.pdf?raw=true" type="application/pdf">
-                                Computer Organization</a></td>
-                        </tr>
-                        <tr>
-                            <td>CEN-402</td>
-                            <td><a href=" junedraghib.github.io/CEN-402.pdf?raw=true" type="application/pdf">
-                                Operating System I</a></td>
-                        </tr>
-                        <tr>
-                            <td>CEN-405</td>
-                            <td> 
-                                <a href=" junedraghib.github.io/CEN-405.pdf?raw=true" type="application/pdf">
-                                Mathematics II (NACP)</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>CEN-406</td>
-                            <td>
-                                <a href=" junedraghib.github.io/CEN-406.pdf?raw=true" type="application/pdf">
-                                System Software</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>CEN-407</td>
-                            <td>
-                                <a href=" junedraghib.github.io/CEN-407.pdf?raw=true" type="application/pdf">
-                                Database Managment System</a>
-                            </td>
-                        </tr>
-                    </table> 
-</div>
-</div>          
-</div>
-<div id="sem5" class="container sem">
-   <div class="panel panel-default">   
-        <div class="panel-heading">Semester 5</div>
-            <div class="panel-body">
-                    <table>
-                        <tr class="header">
-                            <th style="width:10%;">Course Code</th>
-                            <th style="width:33%;">Course Title</th>
-                        </tr>
-                        <tr>
-                            <td>CEN-501</td>
-                            <td><a href=" junedraghib.github.io/CEN-501_computer_architecture.pdf?raw=true" type="application/pdf">
-                                Computer Architechure</a></td>
-                        </tr>
-                        <tr>
-                            <td>CEN-502</td>
-                            <td><a href=" junedraghib.github.io/CEN-502_automata.pdf?raw=true" type="application/pdf">
-                                Automata Theory</a></td>
-                        </tr>
-                        <tr>
-                            <td>CEN-503</td>
-                            <td>
-                                <a href=" junedraghib.github.io/CEN-503_computer_networksI.pdf?raw=true" type="application/pdf">
-                                Computer Network I</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>CEN-505</td>
-                            <td> 
-                                <a href=" junedraghib.github.io/CEN-505_microprocessor.pdf?raw=true" type="application/pdf">
-                                Microprocessor</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>CEN-506</td>
-                            <td>
-                                <a href=" junedraghib.github.io/CEN-506_os_II.pdf?raw=true" type="application/pdf">
-                                Operating System II</a>
-                            </td>
-                        </tr>
-                    </table> 
-                </div>
-       </div>
-    </div>
-</div>
-            
-            <script>function filterTable(event) {
-                    var filter = event.target.value.toUpperCase();
-                    var rows = document.querySelector("#customers tbody").rows;
-
-                    for (var i = 0; i < rows.length; i++) {
-                        var firstCol = rows[i].cells[0].textContent.toUpperCase();
-                        var secondCol = rows[i].cells[1].textContent.toUpperCase();
-                        var thirdCol = rows[i].cells[2].textContent.toUpperCase();
-                        if (firstCol.indexOf(filter) > -1 || secondCol.indexOf(filter) > -1 || thirdCol.indexOf(filter) > -1) {
-                            rows[i].style.display = "";
-                        } else {
-                            rows[i].style.display = "none";
-                        }
-                    }
-                }
-                document.querySelector('#myInput').addEventListener('keyup', filterTable, false);
-            </script>
-            <p></p>
-            <p></p>
-            </br>
-        </div>
-    </div>
-    <!--............................FOOTER GOES HERE....................................................................-->
-    <div w3-include-html="/footer.html"></div>
+					<h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+					<label for="inputEmail" class="sr-only">Email address</label>
+					<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+					<label for="inputPassword" class="sr-only">Password</label>
+					<input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+					<div class="checkbox mb-3">
+						<label>
+							<input type="checkbox" value="remember-me"> Remember me
+						</label>
+					</div>
+					<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+					<p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+				</form>
+			</div>
+		</div>
+	</div>
 </body>
 
 </html>
